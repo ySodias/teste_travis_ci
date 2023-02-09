@@ -1,6 +1,5 @@
 from flask_restful import Resource
-
-from section_7.starter_code.models.store import StoreModel
+from models.store import StoreModel
 
 
 class Store(Resource):
